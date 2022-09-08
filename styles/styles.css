@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: "Source Code Pro", monospace;
+}
+
+body {
+    margin: 0;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+    max-width: 100%
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10%;
+    padding: 20px;
+    background-color: #000022;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-container {
+    overflow: auto;
+    list-style: none;
+    text-align: center;
+    vertical-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Home */
+#home {
+    margin-top: 10%;
+}
