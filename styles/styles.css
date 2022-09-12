@@ -154,6 +154,21 @@ header a {
     padding: .25rem .5rem;
 }
 
+/* Skills summary */
+#skills-summary {
+    padding: 0 3rem;
+}
+
+.skill-block {
+    border: 0;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+    border-radius: 1rem;
+    background-color: #f1faee;
+    padding: .25rem .5rem;
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
 /* Footer */
 footer {
     background: #14213d;
