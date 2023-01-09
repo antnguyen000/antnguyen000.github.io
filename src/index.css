@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+* {
+  font-family: nunito, khula;
+}
+
 html {
   font-size: 16px;
 }
@@ -8,4 +15,41 @@ h1 {
 
 h2 {
   font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  width: 100%;
+  background-color: #1d3557;
+  overflow: hidden;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.nav-title {
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  padding-right: 3rem;
+}
+
+.navbar li {
+  margin-right: 1.25rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
 }
