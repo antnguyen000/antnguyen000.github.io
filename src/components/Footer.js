@@ -1,7 +1,10 @@
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+
 const Footer = () => {
     return (
         <div className="footer">
-            <h2>Hi! Welcome to my humble abode</h2>
+            <a href="https://github.com/antnguyen000"><BsGithub size={ 50 }/></a>
+            <a href="https://linkedin.com/in/anthony-nguyen-b0b15a232"><BsLinkedin size={ 50 }/></a>
         </div>
     )
 }
