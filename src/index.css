@@ -15,6 +15,7 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
+  margin-bottom: .75rem;
 }
 
 h3 {
@@ -181,6 +182,31 @@ p {
 .card-body .skill-btn {
   margin-right: .3rem;
   margin-bottom: .3rem;
+  border: 0;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 50%);
+  border-radius: 1rem;
+  background-color: #f1faee;
+}
+
+/* Skills Summary */
+.skills-summary {
+  padding-left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.skills-summary-header {
+  padding-left: 4rem;
+  margin-bottom: .5rem;
+}
+
+.skills-block {
+  padding-left: 4rem;
+  display: flex;
+}
+
+.skills-button {
+  margin-right: .3rem;
+  padding: .25rem;
   border: 0;
   box-shadow: 0 1px 5px rgb(0 0 0 / 50%);
   border-radius: 1rem;

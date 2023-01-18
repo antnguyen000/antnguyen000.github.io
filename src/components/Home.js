@@ -1,5 +1,6 @@
 import About from "./About"
 import Projects from "./Projects"
+import SkillsSummary from "./SkillsSummary"
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
             <h1 className="title">Anthony's Portfolio</h1>
             <About></About>
             <Projects></Projects>
+            <SkillsSummary></SkillsSummary>
         </div>
     )
 }
