@@ -2,7 +2,7 @@ import portrait from "../images/portrait.JPG"
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <img src={ portrait } alt="portrait"></img>
             <div className="about-text">
                 <h2>Hello!</h2>
