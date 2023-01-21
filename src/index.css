@@ -188,6 +188,24 @@ p {
   background-color: #f1faee;
 }
 
+.project-link-btn {
+  /* text-decoration: none; */
+  margin: auto;
+  margin-bottom: .5rem;
+  display: flex;
+  background-color:#1d3557;
+  border: 1px;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: .35rem;
+}
+
+.project-link-btn a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
 /* Skills Summary */
 .skills-summary {
   padding-left: 4rem;

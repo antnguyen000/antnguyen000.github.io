@@ -12,6 +12,7 @@ const ProjectCard = (project) => {
               <button className="skill-btn">{ skill }</button>
             ))}
           </div>
+          { project.project.link && <button className="project-link-btn"><a href={ project.project.link } target="_blank" rel="noreferrer">Check it out!</a></button> }
 
         </div>
     )

@@ -7,12 +7,14 @@ const Projects = () => {
             information: "My portfolio website!",
             image: "website.jfif",
             skills: ["HTML", "CSS", "Javascript", "ReactJS"],
+            link:"https://github.com/antnguyen000/pushup-counter-app",
         },
         {
             title: "Pushup Counter App",
             information: "Computer vision program that counts front and side view pushups!",
             image: "pushup.png",
             skills: ["Python", "OpenCV", "MediaPipe"],
+            link: null,
         },
     ]
 
@@ -22,12 +24,14 @@ const Projects = () => {
             information: "Building a RC Car from scratch!",
             image: "rccar.PNG",
             skills: ["SolidWorks"],
+            link: null,
         },
         {
             title: "Measuring Tape Reverse Engineering Project",
             information: "Deconstructing and modeling a measuring tape using SolidWorks",
             image: "measuringtape.png",
             skills: ["SolidWorks"],
+            link: null,
         },
     ]
 
