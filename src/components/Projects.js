@@ -7,14 +7,14 @@ const Projects = () => {
             information: "My portfolio website!",
             image: "website.jfif",
             skills: ["HTML", "CSS", "Javascript", "ReactJS"],
-            link:"https://github.com/antnguyen000/pushup-counter-app",
+            link:null,
         },
         {
             title: "Pushup Counter App",
             information: "Computer vision program that counts front and side view pushups!",
             image: "pushup.png",
             skills: ["Python", "OpenCV", "MediaPipe"],
-            link: null,
+            link: "https://github.com/antnguyen000/pushup-counter-app",
         },
     ]
 
