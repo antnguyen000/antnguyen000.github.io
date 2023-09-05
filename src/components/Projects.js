@@ -20,18 +20,25 @@ const Projects = () => {
 
     const mechanicalProjects = [
         {
+            title: "Delivery Drone",
+            information: "Building drone to carry small packages!",
+            image: "drone.jpg",
+            skills: ["SolidWorks"],
+            link: "https://drive.google.com/file/d/1NetlUs5OZoXgyQPW4nQqsN1GmcW4_-uK/view?usp=sharing",
+        },
+        {
             title: "RC Car Project",
             information: "Building a RC Car from scratch!",
             image: "rccar.PNG",
             skills: ["SolidWorks"],
-            link: null,
+            link: "https://drive.google.com/file/d/1Hnxgiip1YeyxBFH0v472_-SEqQ78xqqk/view?usp=sharing",
         },
         {
             title: "Measuring Tape Reverse Engineering Project",
             information: "Deconstructing and modeling a measuring tape using SolidWorks",
             image: "measuringtape.png",
             skills: ["SolidWorks"],
-            link: null,
+            link: "https://drive.google.com/file/d/1xGxlpqhSRoDky7R-i2xrSREMrGeQKdZi/view?usp=sharing",
         },
     ]
 
