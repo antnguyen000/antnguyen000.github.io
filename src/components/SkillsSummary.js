@@ -1,5 +1,5 @@
 const SkillsSummary = () => {
-    const languages = ["Python", "MATLAB", "HTML", "CSS", "JavaScript"]
+    const languages = ["Python", "MATLAB", "R", "HTML", "CSS", "JavaScript", "Swift"]
     const frameworks = ["React"]
     const engineering = ["SolidWorks"]
 
